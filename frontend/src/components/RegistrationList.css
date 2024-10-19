@@ -1,0 +1,59 @@
+.registration-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  width: 700px;
+}
+
+.registration-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registration-name, .registration-email, .registration-dob {
+  flex: 1;
+  margin: 0 10px;
+  padding: 5px; 
+  border-radius: 4px; 
+}
+
+.registration-dob {
+  font-weight: bold; 
+  color: #555; 
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button, .delete-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background: #007bff;
+  color: #fff;
+}
+
+.delete-button {
+  background: #dc3545;
+  color: #fff;
+}
+
+.edit-button:hover {
+  background: #07498f;
+}
+
+.delete-button:hover {
+  background: #9c0b1a;
+}
