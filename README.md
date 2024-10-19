@@ -16,7 +16,7 @@ This repository contains a CRUD Operation built with a React frontend and a Node
 1. **Clone the Repository**:
    Open your terminal and clone the repository:
 
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/aadil1073/CRUD-Registration.git
    cd your-repository-name/backend
 
 2. **Install Dependencies**:
